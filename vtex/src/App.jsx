@@ -50,9 +50,9 @@ function App() {
       <div>
       
       <div className='opcoes'>
-        <div className='opcoes_box'><img src="./assets/tech.svg" alt="tecnologia-imagem" height={129}/>Tecnologia</div>
+        <div className='opcoes_box'><img src="./assets/tech.svg" alt="tecnologia-imagem" height={140}/>Tecnologia</div>
         <div className='opcoes_box'><img src="./assets/supermercado.svg" alt="supermercado-imagem" />Supermercado</div>
-        <div className='opcoes_box'><img src="./assets/bebidas.svg" alt="bebidas-imagem" />Bebeidas</div>
+        <div className='opcoes_box'><img src="./assets/bebidas.svg" alt="bebidas-imagem" />Bebidas</div>
         <div className='opcoes_box'><img src="./assets/ferramentas.svg" alt="ferramentas-imagem" />Ferramentas</div>
         <div className='opcoes_box'><img src="./assets/saude.svg" alt="saude-imagem" />Saúde</div>
         <div className='opcoes_box'><img src="./assets/esportes.svg" alt="esporte-imagem" />Esporte e fitness</div>
