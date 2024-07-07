@@ -1,0 +1,1 @@
+export const BASE_URL_API = 'https://cors-anywhere.herokuapp.com/https://app.econverse.com.br/teste-front-end/junior/tecnologia/lista-produtos/produtos.json'
