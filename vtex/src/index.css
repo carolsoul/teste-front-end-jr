@@ -6,9 +6,8 @@
 }
 
 body{
-    width: 1310px;
+    width: 1440px;
     height: 3202px;
-    overflow-x: hidden;
 }
 
 a{
@@ -129,7 +128,7 @@ nav ul li a:hover{
   }
   
 .banner img {
-    width: 1310px;
+    width: 100%;
     height: auto;
 }
   
@@ -324,7 +323,7 @@ nav ul li a:hover{
 }
 
 footer{
-    width: 1310px;
+    width: 1442px;
     background-color: #2A2A2A;
     padding: 80px 100px 20px;
     color: #FFFF;
@@ -472,7 +471,7 @@ ul li a{
 
 .styles\.container{
     display: flex;
-    margin: 0 25px;
+    margin: 0 85px;
     overflow-x: scroll;
 }
 
