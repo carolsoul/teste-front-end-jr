@@ -55,7 +55,7 @@ function App() {
         <div className='opcoes_box'><img src="./assets/bebidas.svg" alt="bebidas-imagem" />Bebidas</div>
         <div className='opcoes_box'><img src="./assets/ferramentas.svg" alt="ferramentas-imagem" />Ferramentas</div>
         <div className='opcoes_box'><img src="./assets/saude.svg" alt="saude-imagem" />Saúde</div>
-        <div className='opcoes_box'><img src="./assets/esportes.svg" alt="esporte-imagem" />Esporte e fitness</div>
+        <div className='opcoes_box'><img src="./assets/esportes.svg" alt="esporte-imagem" />Esportes e fitness</div>
         <div className='opcoes_box'><img src="./assets/moda.svg" alt="moda-imagem" />Moda</div>
       </div>
       <article className='produtos_relacionados'>

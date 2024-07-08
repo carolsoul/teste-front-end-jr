@@ -34,18 +34,18 @@ export const Home =()=> {
 
       return (
         <> 
-            <div className={styles.container}>
-                <div className={styles.box}>
+            <div className='styles.container'>
+                <div className='styles.box'>
                     {data.map((item, index) => {
                         return(
-                            <div key={index} className={styles.card}>
+                            <div key={index} className='styles.card'>
                                 <Link className={'styles.items'} to={`/product/${item.id}`}>
                                     <img src={item.photo} alt={item.productName} width={247} height={228} />
                                     <h2>{item.productName}</h2>
-                                    <p>{item.price}</p>
+                                    <p className='price'>R$ {item.price}</p>
                                     <p>ou 2x de R$ 49,95 sem juros</p>
-                                    <p>Frete Grátis</p>
-                                    <button className={'styles.btn_comprar'}>Comprar</button>
+                                    <p className='frete'>Frete Grátis</p>
+                                    <button className='styles.btn_comprar'>COMPRAR</button>
                                 </Link>
                             </div>
                         )

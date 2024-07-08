@@ -6,8 +6,13 @@
 }
 
 body{
-    width: 1440px;
+    width: 1310px;
     height: 3202px;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
 }
 
 
@@ -124,7 +129,7 @@ nav ul li a:hover{
   }
   
 .banner img {
-    width: 100%;
+    width: 1310px;
     height: auto;
 }
   
@@ -175,6 +180,9 @@ nav ul li a:hover{
 }
 
 .opcoes_box{
+    display: grid;
+    justify-items: center;
+    align-items: center;
     background-color: #F4F4F4;
     width: 128px;
     height: 128px;
@@ -182,12 +190,12 @@ nav ul li a:hover{
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
     cursor: pointer;
     text-align: center;
-    margin: 20px 0 50px;
+    margin: 20px 0 40px;
     font-size: 16px;
     font-weight: 500;
 }
 .opcoes_box img{
-    padding: 40px;
+    padding: 40px 0 ;
 }
 
 .opcoes_box:hover{
@@ -307,8 +315,16 @@ nav ul li a:hover{
     cursor: pointer;
 }
 
+.marcas img{
+    transition: transform 0.3s ease-in-out;
+}
+
+.marcas img:hover{
+    transform: translateY(-15px);
+}
+
 footer{
-    width: 1442px;
+    width: 1310px;
     background-color: #2A2A2A;
     padding: 80px 100px 20px;
     color: #FFFF;
@@ -447,4 +463,67 @@ ul li a{
 
 .empresas img{
     margin: 0 50px 0 0;
+}
+
+.styles\.box{
+    display:flex;
+    gap: 50px;
+}
+
+.styles\.container{
+    display: flex;
+    margin: 0 25px;
+    overflow-x: scroll;
+}
+
+.styles\.card{
+    width: 270px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    padding: 20px 0;
+    margin: 10px;
+}
+
+p.frete{
+    color: #F71963;
+    font-size: 12px;
+    font-weight: 400;
+}
+p.price{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+a.styles\.items{
+    color: #3F3F40;
+    font-size: 12px;
+    font-weight: 400;
+    width: 247px;
+    height: 467px;
+    display: grid;
+    margin: 10px;
+    cursor: default;
+}
+
+a.styles\.items h2{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+button.styles\.btn_comprar{
+    width: 245px;
+    height: 44px;
+    border-radius: 4px;
+    background-color: #F71963;
+    color: #FFFF;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+button.styles\.btn_comprar:hover{
+    background-color: #db0049;
 }
